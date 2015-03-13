@@ -23,6 +23,16 @@
             <artifactId>jboss-jsf-api_2.2_spec</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>com.zaxxer</groupId>
+            <artifactId>HikariCP</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>ru.osslabs.library</groupId>
+            <artifactId>fias</artifactId>
+        </dependency>
+
         <!--own-->
         <dependency>
             <groupId>org.danilarefy.test</groupId>

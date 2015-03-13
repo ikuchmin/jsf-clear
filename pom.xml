@@ -29,8 +29,8 @@
 
         <plugin.maven.war.plugin.version>2.5</plugin.maven.war.plugin.version>
         <project.maven.plugin.compiler>3.2</project.maven.plugin.compiler>
-        <project.maven.plugin.compiler.target>1.7</project.maven.plugin.compiler.target>
-        <project.maven.plugin.compiler.source>1.7</project.maven.plugin.compiler.source>
+        <project.maven.plugin.compiler.target>1.8</project.maven.plugin.compiler.target>
+        <project.maven.plugin.compiler.source>1.8</project.maven.plugin.compiler.source>
 
     </properties>
 
@@ -73,6 +73,17 @@
                 <version>${lib.primefaces.extensions.version}</version>
             </dependency>
 
+            <dependency>
+                <groupId>ru.osslabs.library</groupId>
+                <artifactId>fias</artifactId>
+                <version>1.0.0-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>com.zaxxer</groupId>
+                <artifactId>HikariCP</artifactId>
+                <version>2.3.2</version>
+                <scope>compile</scope>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
